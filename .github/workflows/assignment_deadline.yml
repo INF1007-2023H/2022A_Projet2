@@ -41,7 +41,7 @@ name: Assignment deadline
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 05 06 03 *'
+    - cron: '00 05 05 11 *'
 
 jobs:
   apply_deadline:
